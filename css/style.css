@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@font-face {
+  font-family: 'snesitalic';
+  src: url('font/snes-webfont.woff2') format('woff2'),
+       url('font/snes-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+ @keyframes wobble-hor-bottom {
+    0%,
+    100% {
+      transform: translateX(0%);
+      transform-origin: 50% 50%;
+    }
+    15% {
+      transform: translateX(-30px) rotate(-6deg);
+    }
+    30% {
+      transform: translateX(15px) rotate(6deg);
+    }
+    45% {
+      transform: translateX(-15px) rotate(-3.6deg);
+    }
+    60% {
+      transform: translateX(9px) rotate(2.4deg);
+    }
+    75% {
+      transform: translateX(-6px) rotate(-1.2deg);
+    }
+  }
+  
+.wiggle {
+    animation: wobble-hor-bottom 0.8s both;
+}
+
+html{
+  background-color:#ae1d24;
+}
+body{
+    height:100%;
+    font-family:"snesitalic";
+    text-transform: uppercase;
+    letter-spacing:1px;
+    color:white;
+}
+h1{
+    font-size:3em;
+    text-align: center;
+    margin:0.4em;
+}
+
+.character{
+    display: flex;
+    margin: auto;
+    height:9.5em;
+    padding:1em; 
+}
+
+figcaption{
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.board{
+    display:grid;
+    width:70%;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(2,1fr);
+    border: 2px solid white;   
+    border-radius: 0.8em;
+}
