@@ -13,7 +13,7 @@ for (let i = 0 ; i < numCharacters; i++) {
 } 
 
 //audio
-let dir = "../audio/mario/";
+let dir = "./audio/mario/";
 let playlistMario = ["mario1","mario2","mario3"];
 let playlistMarioIndex = 0;
 let ext = ".wav";
