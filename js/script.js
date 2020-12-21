@@ -39,7 +39,7 @@ characters[0].addEventListener('click',function(){
         }
 });
 
-let dir2 = "../audio/link/";
+let dir2 = "audio/link/";
 let playlistLink = ["link1","link2","link3"];
 let playlistLinkIndex = 0;
 let ext2 = ".wav";
@@ -65,7 +65,7 @@ characters[1].addEventListener('click',function(){
         }
 });
 
-let dir3 = "../audio/falcon/";
+let dir3 = "audio/falcon/";
 let playlistFalcon = ["falcon1","falcon2","falcon3"];
 let playlistFalconIndex = 0;
 let ext3 = ".mp3";
@@ -91,7 +91,7 @@ characters[2].addEventListener('click',function(){
         }
 });
 
-let dir4 = "../audio/peach/";
+let dir4 = "audio/peach/";
 let playlistPeach = ["peach1","peach2","peach3"];
 let playlistPeachIndex = 0;
 let ext4 = ".wav";
@@ -117,7 +117,7 @@ characters[3].addEventListener('click',function(){
         }
 });
 
-let dir5 = "../audio/kirby/";
+let dir5 = "audio/kirby/";
 let playlistKirby = ["kirby1","kirby2","kirby3"];
 let playlistKirbyIndex = 0;
 let ext5 = ".wav";
@@ -143,7 +143,7 @@ characters[4].addEventListener('click',function(){
         }
 });
 
-let dir6 = "../audio/yoshi/";
+let dir6 = "audio/yoshi/";
 let playlistYoshi = ["yoshi1","yoshi2","yoshi3"];
 let playlistYoshiIndex = 0;
 let ext6 = ".wav";
@@ -169,7 +169,7 @@ characters[5].addEventListener('click',function(){
         }
 });
 
-let dir7 = "../audio/toad/";
+let dir7 = "audio/toad/";
 let playlistToad = ["toad1","toad2","toad3"];
 let playlistToadIndex = 0;
 let ext7 = ".wav";
@@ -195,7 +195,7 @@ characters[6].addEventListener('click',function(){
         }
 });
 
-let dir8 = "../audio/zelda/";
+let dir8 = "audio/zelda/";
 let playlistZelda = ["zelda1","zelda2","zelda3"];
 let playlistZeldaIndex = 0;
 let ext8 = ".wav";
@@ -222,7 +222,7 @@ characters[7].addEventListener('click',function(){
 });
 
 
-let dir9 = "../audio/pikachu/";
+let dir9 = "audio/pikachu/";
 let playlistPikachu = ["pikachu1","pikachu2","pikachu3"];
 let playlistPikachuIndex = 0;
 let ext9 = ".mp3";
@@ -249,7 +249,7 @@ characters[8].addEventListener('click',function(){
 });
 
 
-let dir10 = "../audio/fox/";
+let dir10 = "audio/fox/";
 let playlistFox = ["fox1","fox2","fox3"];
 let playlistFoxIndex = 0;
 let ext10 = ".wav";
